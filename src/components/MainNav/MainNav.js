@@ -57,6 +57,15 @@ export default class MainNav extends Component {
           >
 
           </Menu.Item>
+          <Menu.Item
+            name='press'
+            active={activeItem === 'press'}
+            onClick={this.handleItemClick}
+            as={NavLink} 
+            to='/press'
+          >
+
+          </Menu.Item>
 
         </Menu.Menu>
       </Menu>

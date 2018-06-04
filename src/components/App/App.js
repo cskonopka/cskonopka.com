@@ -15,6 +15,7 @@ import Events     from  "../Events/Events"
 import VideoPortfolio from "../VideoPortfolio/VideoPortfolio"
 import TechPortfolio from "../TechPortfolio/TechPortfolio"
 import SoundPortfolio from "../SoundPortfolio/SoundPortfolio"
+import Press from "../Press/Press"
 
 
 import {
@@ -51,13 +52,14 @@ class App extends Component {
           <Route path="/cv" component={CV}/>
           <Route path="/about" component={About}/>
           <Route path="/contact" component={Contact}/>
-          <Route path="/home" component={Home}/>
+          <Route path="/home" component={Portfolio}/>
           <Route path="/events" component={Events}/>
-          <Route exact path="/" component={Home}/>
+          <Route exact path="/" component={Portfolio}/>
           <Route path="/portfolio" component={Portfolio} />
           <Route path="/video" component={VideoPortfolio} />
           <Route path="/tech" component={TechPortfolio} />
           <Route path="/sound" component={SoundPortfolio} />
+          <Route path="/press" component={Press} />
 
 
       </div>

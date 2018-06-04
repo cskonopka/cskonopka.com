@@ -11,8 +11,11 @@ export default class VideoShowList extends Component {
         <Container textAlign='center'>
             <br/>
             <List relaxed size={ 'large'}>
-                <List.Item><h4>April 28, 2018: Orange Milk Showcase at Moon Villain (Boston, MA)</h4></List.Item>
-                <List.Item><h4>March 24, 2018: The Lilypad (Cambridge, MA)</h4></List.Item>
+                <List.Item href="https://spaceus.co/MAY-26-28-ELECTRIC-PETTING-ZOO"><h4>May 26 - 28, 2018: Electric Petting Zoo [Spaceus] (Boston, MA)</h4></List.Item>
+                <List.Item href="https://bostonhassle.com/event/m-s-t-damon-smith-brain-coat-3-studio550/"><h4>May 19, 2018: Studio @ 550 (Cambridge, MA) &nbsp; |  &nbsp; M/S/T - Damon Smith - Brain Coat 3</h4></List.Item>
+                <List.Item><h4>May 4, 2018: Jeanie Johnson Pub (Jamaica Plain, MA) &nbsp; |  &nbsp; Violet Nox, Sound Shaman, Main Fader, Death Sheperd</h4></List.Item>
+                <List.Item><h4>April 28, 2018: Orange Milk Showcase at Moon Villain (Boston, MA) &nbsp; |  &nbsp; Kazuya Suwa - Seth Graham - Dok-S - Koeosaeme - Velf</h4></List.Item>
+                <List.Item><h4>March 24, 2018: The Lilypad (Cambridge, MA) &nbsp; |  &nbsp; Kim Boekbinder, Miss Geo, Violet Nox, Trim, Brandi Blaze, Ruby Luna</h4></List.Item>
                 <List.Item><h4>February 26, 2018: Great Scott (Allston, MA)</h4></List.Item>
                 <List.Item><h4>February 25, 2018: XFest 2018 [Dorchester Art Project] (Dorchester, MA)</h4></List.Item>
                 <List.Item><h4>February 24, 2018: XFest 2018 [Dorchester Art Project] (Dorchester, MA)</h4></List.Item>

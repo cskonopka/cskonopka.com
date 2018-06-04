@@ -8,9 +8,9 @@ import  Audio                 from  "../Audio/Audio"
 
 
 const panes = [
-  { menuItem: 'video', render: () => <Tab.Pane attached={false}><Video /></Tab.Pane> },
-  { menuItem: 'hard/soft dev', render: () => <Tab.Pane attached={false}><WebDevMenu/></Tab.Pane> },
-  { menuItem: 'audio', render: () => <Tab.Pane attached={false}><Audio /></Tab.Pane> },
+  { menuItem: 'analog video synthesis', render: () => <Tab.Pane attached={false}><Video /></Tab.Pane> },
+  { menuItem: 'creative technology', render: () => <Tab.Pane attached={false}><WebDevMenu/></Tab.Pane> },
+  { menuItem: 'sound design', render: () => <Tab.Pane attached={false}><Audio /></Tab.Pane> },
 ]
 
 export default class SubMenu extends Component {
@@ -18,7 +18,6 @@ export default class SubMenu extends Component {
 
     return (
       <div style={{paddingLeft:"2%", paddingRight:"2%"}}>
-              <br/>
   		  <Tab menu={{ pointing: true, fluid: true,  widths: 3, compact: true }}   panes={panes} defaultActiveIndex={this.props.indexer}/>
       </div>
 
