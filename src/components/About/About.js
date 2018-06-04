@@ -12,7 +12,6 @@ export default class About extends Component {
     return (
       <div>
   		<LogoTop/>
-  		<Header size='medium'>[ &nbsp; &nbsp; <a href={resume}>Resume</a> &nbsp; &nbsp; |  &nbsp; &nbsp; <a href="mailto:cskonopka@schwwaaa.net">Contact</a> &nbsp; &nbsp; | &nbsp; &nbsp; Mailing List &nbsp; &nbsp; ]</Header>
   		<br/>
 
 <Grid stackable={true} columns={3} fluid>
