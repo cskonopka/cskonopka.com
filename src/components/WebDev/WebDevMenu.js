@@ -7,8 +7,8 @@ import PhysicalComputing             from "../PhysicalComputing/PhysicalComputin
 
 
 const panes = [
-  { menuItem: 'hardware development', render: () => <Tab.Pane attached={false}><PhysicalComputing/></Tab.Pane> },
   { menuItem: 'software development',         render: () => <Tab.Pane attached={false}><FullStack/></Tab.Pane> },
+  { menuItem: 'hardware development', render: () => <Tab.Pane attached={false}><PhysicalComputing/></Tab.Pane> },
   { menuItem: 'audio development', render: () => <Tab.Pane attached={false}><FrontEnd/></Tab.Pane> },
 ]
 

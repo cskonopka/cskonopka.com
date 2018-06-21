@@ -8,8 +8,8 @@ import  Audio                 from  "../Audio/Audio"
 
 
 const panes = [
-  { menuItem: 'analog video synthesis', render: () => <Tab.Pane attached={false}><Video /></Tab.Pane> },
   { menuItem: 'creative technology', render: () => <Tab.Pane attached={false}><WebDevMenu/></Tab.Pane> },
+  { menuItem: 'analog video synthesis', render: () => <Tab.Pane attached={false}><Video /></Tab.Pane> },
   { menuItem: 'sound design', render: () => <Tab.Pane attached={false}><Audio /></Tab.Pane> },
 ]
 

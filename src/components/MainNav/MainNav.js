@@ -17,7 +17,7 @@ export default class MainNav extends Component {
 
     return (
       <div>
-        <Menu fluid={true} borderless={false} attached='top' secondary={true}>
+        <Menu borderless={false} attached='top' secondary={true} fluid={true} >
           <Menu.Menu position='left' >
             <Menu.Item
 

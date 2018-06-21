@@ -16,6 +16,21 @@ export default class About extends Component {
 
 <Grid stackable={true} columns={3} fluid>
                 <Grid.Row>
+                    <Grid.Column>
+                        <Header size='medium'><a href="/tech">Creative Technology</a></Header>
+
+                        <Header>[ &nbsp; &nbsp;
+                            <a href="https://www.github.com/cskonopka">
+                                <FontAwesome size="1x" name='github' />
+                            </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+                            <a href="https://www.pocketgopherdex.tumblr.com">
+                                <FontAwesome size="1x" name='tumblr' />
+                            </a> &nbsp; &nbsp; | &nbsp; &nbsp;
+                            <a href="https://www.linkedin.com/christopherkonopka">
+                                <FontAwesome size="1x" name='linkedin' />
+                            </a> &nbsp; &nbsp; ]
+                        </Header>
+                    </Grid.Column>
                     <Grid.Column textAlign={ 'center'}>
                         <Header size='medium'><a href="/video">Analog Video Synthesis</a></Header>
 
@@ -30,20 +45,7 @@ export default class About extends Component {
                                 <FontAwesome size="1x" name='youtube' />
                             </a> &nbsp; &nbsp; ]</Header>
                     </Grid.Column>
-                    <Grid.Column>
-                        <Header size='medium'><a href="/tech">Creative Technology</a></Header>
 
-                        <Header>[ &nbsp; &nbsp;
-                            <a href="https://www.github.com/cskonopka">
-                                <FontAwesome size="1x" name='github' />
-                            </a> &nbsp; &nbsp; | &nbsp; &nbsp;
-                            <a href="https://www.pocketgopherdex.tumblr.com">
-                                <FontAwesome size="1x" name='tumblr' />
-                            </a> &nbsp; &nbsp; | &nbsp; &nbsp;
-                            <a href="https://www.linkedin.com/christopherkonopka">
-                                <FontAwesome size="1x" name='linkedin' />
-                            </a> &nbsp; &nbsp; ]</Header>
-                    </Grid.Column>
                     <Grid.Column>
                         <Header size='medium'><a href="/sound">Sound Design</a></Header>
 

@@ -9,7 +9,14 @@ import react                 from '../../img/csk-react-500x280.png'
 import lv426                 from '../../img/csk-lv426-500x280.png' 
 import p5js                 from '../../img/csk-p5js-500x280.png' 
 import golang                 from '../../img/csk-golang-500x280.png' 
+import golanggin                 from '../../img/csk-golanggin-500x280.png' 
 import website                 from '../../img/csk-website-500x280.png' 
+import twilioreact                 from '../../img/csk-twilioreact-500x280.png' 
+import pocketgopherdex                 from '../../img/csk-pocketgopherdex-500x280.png' 
+import hawaiiquakes                 from '../../img/csk-hawaiiquakes-500x280.png' 
+import dat                 from '../../img/csk-dat-500x280.png' 
+
+import twilioelektron                 from '../../img/csk-twilioelektron-500x280.png' 
 
 
 
@@ -26,6 +33,146 @@ export default class FullStack extends Component {
     return (
     <div>
         <Grid stackable={true} columns={4}>
+            <Grid.Column>
+                <Card 
+                image={golanggin} 
+                fluid={true} 
+                header='go-gin-react-helloworld' 
+                meta='Go/Gin/React/Bootstrap' 
+                description='Hello World web app created with Golang + Gin & React + Bootstrap'
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/go-gin-react-helloworld'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+            <Grid.Column>
+                <Card 
+                image={pocketgopherdex} 
+                fluid={true} 
+                header='pocketgopherdex' 
+                meta='Go' 
+                description='A pocket-sized rolodex of golang examples & research topics'
+                extra={
+                    <div>
+                        <a href='https://pocketgopherdex.tumblr.com/'>Blog</a> —
+                        <a href='https://github.com/cskonopka/pocketgopherdex'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+            <Grid.Column>
+                <Card 
+                image={hawaiiquakes} 
+                fluid={true} 
+                header='HawaiianEarthquakes' 
+                meta='Go' 
+                description='Tracking earthquakes in Hawaii using USGS geojson data'
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/HawaiianEarthquakes'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+            <Grid.Column>
+                <Card 
+                image={hawaiiquakes} 
+                fluid={true} 
+                header='normalizeAudio' 
+                meta='Go' 
+                description='Golang + ffmpeg automation routine for finding an audio file max volume and create a normalized output file'
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/normalizeAudio'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+
+            <Grid.Column>
+                <Card 
+                image={dat} 
+                fluid={true} 
+                header='datReact' 
+                meta='Dat project/React' 
+                description='Single page example of a Dat project using React.js'
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/datReact'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+            <Grid.Column>
+                <Card 
+                image={twilioelektron} 
+                fluid={true} 
+                header='twilioElektron' 
+                meta='Twilio/React/Node.js/MIDI' 
+                description='Example of how to use Twilio SMS to control an Elektron Octatrack with MIDI using Node.js and easymidi' 
+                extra={
+                    <div>
+                        <a href='https://www.youtube.com/watch?v=KFZJt0G3Mag'>Demo</a> — 
+                        <a href='https://github.com/cskonopka/twilioElektron'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+
+            <Grid.Column>
+                <Card 
+                image={twilioreact} 
+                fluid={true} 
+                header='twilioWebSMS' 
+                meta='Twilio/React/Node.js' 
+                description='Example of how to use a web button to send sms using Twilio, React, Node & axios' 
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/twilioWebSMS'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+
+            <Grid.Column>
+                <Card 
+                image={twilioreact} 
+                fluid={true} 
+                header='twilioWebChatSMS' 
+                meta='Twilio/React/Node.js/Socket.io' 
+                description='Web chat example which can send & receive SMS from Twilio using React, Node, Socket.io & axios' 
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/twilioWebChatSMS'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
+            <Grid.Column>
+                <Card 
+                image={react} 
+                fluid={true} 
+                header='transcriptComber' 
+                meta='React.js/Search' 
+                description='Search media transcripts with text highlighting and audio playhead positioning' 
+                extra={
+                    <div> 
+                        <a href='https://github.com/cskonopka/transcriptComber'> Github</a> 
+                    </div>
+                }
+                />
+            </Grid.Column>
+
             <Grid.Column>
                 <Card 
                 image={react} 
@@ -111,7 +258,12 @@ export default class FullStack extends Component {
                 fluid={true} 
                 header='cskonopka.com' 
                 meta='React/Node.js/AWS' 
-                description='Created this website from scratch!' />
+                description='Created this website from scratch!' 
+                extra={
+                    <div>
+                        <a href='https://github.com/cskonopka/cskonopka.com'> Github</a> 
+                    </div>
+                }/>
             </Grid.Column>
 
             <Grid.Column>
