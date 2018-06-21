@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../App/App.css';
 import SubMenu				from	'../SubMenu/SubMenu'
-
+import LogoTop        from  '../LogoTop/LogoTop'
 class TechPortfolio extends Component {
         constructor(props) {
             super(props);
@@ -13,6 +13,8 @@ class TechPortfolio extends Component {
     return (
       <div>
 {/*        <SubMenu indexer={this.state.name}/>*/}
+        <LogoTop/>
+        <br/>
         <SubMenu indexer={this.props.headerProp}/>
       </div>
     );
@@ -21,7 +23,7 @@ class TechPortfolio extends Component {
 
 
 TechPortfolio.defaultProps = {
-   headerProp: 1
+   headerProp: 0
 }
 
 export default TechPortfolio

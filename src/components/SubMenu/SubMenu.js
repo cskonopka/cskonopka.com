@@ -18,7 +18,7 @@ export default class SubMenu extends Component {
 
     return (
       <div style={{paddingLeft:"2%", paddingRight:"2%"}}>
-  		  <Tab menu={{ pointing: true, fluid: true,  widths: 3, compact: true }}   panes={panes} defaultActiveIndex={this.props.indexer}/>
+  		  <Tab menu={{ pointing: true, fluid: true,  widths: 3, compact: true }}   panes={panes} defaultActiveIndex={1}/>
       </div>
 
     );

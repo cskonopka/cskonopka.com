@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../App/App.css';
 import SubMenu				from	'../SubMenu/SubMenu'
+import LogoTop        from  '../LogoTop/LogoTop'
 
 class VideoPortfolio extends Component {
         constructor(props) {
@@ -13,6 +14,8 @@ class VideoPortfolio extends Component {
     return (
       <div>
 {/*        <SubMenu indexer={this.state.name}/>*/}
+        <LogoTop/>
+        <br/>
         <SubMenu indexer={this.props.headerProp}/>
       </div>
     );

@@ -23,24 +23,16 @@ import vid11                  from '../../img/csk-vid11-500x280.png';
 import vid12                  from '../../img/csk-vid12-500x280.png';
 
 import vimeo                   from '../../img/csk-vimeo-500x280.png';
-
+import FontAwesome from 'react-fontawesome'
 
 export default class Studio extends Component {
   render() {
     return (
 
     <div>
-        <Grid>
-    <Grid.Column width={4}>
-                <Card 
-                image={vimeo} 
-                fluid={true} 
-                header='Portfolio' 
-                href="https://vimeo.com/cskonopka"
-                />
-    </Grid.Column>
-    <Grid.Column width={12}>
-        <Header as='h3' textAlign="left" block="true" >Christopher Konopka specializes in generating one-of-a-kind
+        <Grid stackable={true}>
+            <Grid.Column width={12}>
+        <Header as='h3' textAlign="left" block="true"  >Christopher Konopka specializes in generating one-of-a-kind
 visual textures with raw video signals. Using an analog video
 synthesizer, video signals can be layered, keyed and fed back
 into themselves as a way to paint with a television in real-
@@ -54,9 +46,52 @@ discarded. These free-floating threads of minutia hold the
 potential choice of mindfully engaging unaltered emotional
 abstractions through creating personal coincidental
 attachment.
-        </Header>   
+        </Header>  
+
     </Grid.Column>
-  </Grid>
+    <Grid.Column width={4}>
+                <Card 
+                image={vimeo} 
+                fluid={true} 
+                header='Portfolio' 
+                href="https://vimeo.com/cskonopka"
+                />
+
+
+
+
+    </Grid.Column>
+
+      </Grid>
+
+      <Grid verticalAlign="middle">
+
+            <Grid.Column width={4}>
+                            <a href="https://www.vimeo.com/cskonopka">
+                                <FontAwesome size="2x" name='vimeo' />
+                            </a>
+                            </Grid.Column>
+
+            <Grid.Column width={4}>
+                            <a href="https://www.instagram.com/cskonopka">
+                                <FontAwesome size="2x" name='instagram' />
+                            </a>
+                            </Grid.Column>
+
+            <Grid.Column width={4}>
+                            <a href="https://www.youtube.com/watch?v=WngGZz6f5o4&list=PLGJVzjsDmY4bO8W9SZSKwks2YpTOwpanr">
+                                <FontAwesome size="2x" name='youtube' />
+                            </a>
+                            </Grid.Column>
+            <Grid.Column width={4}>
+                            <a href="https://www.ello.co/cskonopka">
+                                <FontAwesome size="2x" name='smile-o' />
+                            </a>
+                            </Grid.Column>
+
+
+      </Grid>
+      <br/>
     <Card.Group itemsPerRow={4}>
     <Card raised image={vid1} href='https://vimeo.com/268922766'/>
     <Card raised image={vid2} href='https://vimeo.com/267369183'/>

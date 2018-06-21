@@ -23,8 +23,9 @@ export default class Events extends Component {
                 </Grid.Row>
             </Grid>
         <Header size='medium'>[ &nbsp; &nbsp; <a href={resume}>Resume</a> &nbsp; &nbsp; |  &nbsp; &nbsp; <a href="mailto:cskonopka@schwwaaa.net">Contact</a> &nbsp; &nbsp; | &nbsp; &nbsp; Mailing List &nbsp; &nbsp; ]</Header>
+        <Header size='medium'>[ &nbsp; &nbsp; cskonopka@schwwaaa.net &nbsp; &nbsp; ]</Header>
         <br/>
-        </div>
+        </div>        
     );
   }
 }
