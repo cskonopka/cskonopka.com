@@ -21,7 +21,7 @@ export default class Video extends Component {
 
     return (
       <div style={{paddingLeft:"2%", paddingRight:"2%"}}>
-        <Tab menu={{ secondary: true, pointing: true, fluid: true, compact: true, widths: 5 }} grid={{compact: true}} defaultActiveIndex={this.props.headerProp} panes={panes} />      
+        <Tab menu={{ secondary: true, pointing: true, fluid: true, compact: true, widths: 5, stackable: true}} grid={{compact: true}} defaultActiveIndex={this.props.headerProp} panes={panes} />      
       </div>
     );
   }

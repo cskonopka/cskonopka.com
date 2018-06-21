@@ -17,7 +17,7 @@ export default class WebDevMenu extends Component {
   render() {
     return (
       <div style={{paddingLeft:"2%", paddingRight:"2%"}}>
-          <Tab menu={{ secondary: true, pointing: true, fluid: true, compact: true, widths: 3 }} grid={{compact: true}}  panes={panes}  />
+          <Tab menu={{ secondary: true, pointing: true, fluid: true, compact: true, widths: 3, stackable: true}} grid={{compact: true}}  panes={panes}  />
 
       </div>
     );
